@@ -18,3 +18,18 @@ body{
     font-weight: bold;
     color: #55b837;
 }
+.imagem-container{
+    width: 100%;
+    height: 240px;
+    overflow: hidden;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+.imagem-container img {
+    width: 100px;
+    height: 100px; /*Garantir que a imagem ocupe toda a altura do container*/
+    object-fit: contain; /*Manter a imagem inteira e proporcional*/
+    border-radius: 8px;
+    display: block;
+    margin: 0 auto;
+}
